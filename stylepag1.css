@@ -1,0 +1,88 @@
+@import url('https://css.gg/radio-check.css');
+
+body{
+    background: #E8A5AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.carta{
+    background: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    align-items: center;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo{
+    align-items: flex-start;
+}
+
+.botoes{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.botoes input{
+    background: #7B3D3E;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.548);
+    color: #ECECEC;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.botoes input:hover{
+    background: #7b3d3ea6;
+}
+
+.carta img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 63px;
+}
+
+.conteudo p{
+    padding: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7B3D3E;
+}
+
+.conteudo2 p{
+    padding: 0px 20px 20px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #7B3D3E;
+}
+
+#voltar{
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background: #ECECEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+}
