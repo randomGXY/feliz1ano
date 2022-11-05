@@ -1,4 +1,7 @@
 @import url('https://css.gg/radio-check.css');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+</style>
 
 body{
     background: #E8A5AE;
@@ -9,6 +12,7 @@ body{
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 30px;
+    font-family: 'Caveat', cursive;
 }
 
 .carta{
